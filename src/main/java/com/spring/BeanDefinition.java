@@ -21,4 +21,8 @@ public class BeanDefinition {
     public void setScope(ScopeEnum scope) {
         this.scope = scope;
     }
+
+    public static void main(String[] args) {
+        System.out.println("123");
+    }
 }

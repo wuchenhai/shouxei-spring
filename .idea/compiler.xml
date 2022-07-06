@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shouxei-spring" target="1.5" />
+      <module name="shouxei-spring" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
