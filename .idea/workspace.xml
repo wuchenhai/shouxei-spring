@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1600b2f1-6b85-40a4-8642-20cbfdd9c8b8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LubanSpring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luban/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luban/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luban/service/LubanBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luban/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luban/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/BeanNameAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/BeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/ComponentScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/InitializingBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/LubanApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/ScopeEnum.java" afterDir="false" />
-    </list>
+    <list default="true" id="1600b2f1-6b85-40a4-8642-20cbfdd9c8b8" name="变更" comment="手写spring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +12,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2BYhczeSxvApJ0BsO4BLoiow3sA" />
   <component name="ProjectLevelVcsManager">
@@ -43,6 +36,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,8 +49,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657089009258</updated>
-      <workItem from="1657089010470" duration="300000" />
+      <workItem from="1657089010470" duration="1012000" />
     </task>
+    <task id="LOCAL-00001" summary="手写spring">
+      <created>1657089416313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657089416313</updated>
+    </task>
+    <task id="LOCAL-00002" summary="手写spring">
+      <created>1657089532641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657089532641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="手写spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="手写spring" />
   </component>
 </project>
