@@ -30,6 +30,9 @@ public class LubanApplicationContext {
 
     }
 
+    /**
+     * 扫描类 得到 BeanDefinition
+     */
     private void instanceSingletonBean() {
         for (String beanName : beanDefinitionMap.keySet()) {
             BeanDefinition beanDefinition = beanDefinitionMap.get(beanName);
@@ -54,10 +57,11 @@ public class LubanApplicationContext {
             // 填充属性
             Field[] fields = beanClass.getDeclaredFields();
             for (Field field : fields) {
+                // 获取属性名
                 if (field.isAnnotationPresent(Autowired.class)) {
                     String fieldName = field.getName();
                     Object bean = getBean(fieldName);
-
+                    // 属性注入
                     field.setAccessible(true);
                     field.set(instance, bean);
                 }
@@ -91,6 +95,10 @@ public class LubanApplicationContext {
         return null;
     }
 
+    /**
+     * 扫描类 得到 BeanDefinition
+     * @param configClass
+     */
     private void scan(Class configClass) {
         // 扫描class，转化为BeanDefinition对象，最后添加到beanDefinitionMap中
 
