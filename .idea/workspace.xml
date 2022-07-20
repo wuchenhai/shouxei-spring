@@ -5,20 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1600b2f1-6b85-40a4-8642-20cbfdd9c8b8" name="变更" comment="手写spring">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luban/service/HaiBeanPostProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LubanSpring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/BeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/BeanNameAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/BeanNameAware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/BeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/BeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/InitializingBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/InitializingBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/LubanApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/LubanApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LubanSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LubanSpring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luban/service/LubanBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luban/service/LubanBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/BeanDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/BeanDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/LubanApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/LubanApplicationContext.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,15 +56,28 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.Test">
     <configuration name="BeanDefinition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.BeanDefinition" />
       <module name="LubanSpring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luban.Test" />
+      <module name="LubanSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luban.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Test" />
         <item itemvalue="应用程序.BeanDefinition" />
       </list>
     </recent_temporary>
@@ -96,7 +114,13 @@
       <workItem from="1657089010470" duration="2404000" />
       <workItem from="1657092834443" duration="243000" />
       <workItem from="1657093086026" duration="232000" />
-      <workItem from="1657093337166" duration="2996000" />
+      <workItem from="1657093337166" duration="5785000" />
+      <workItem from="1657156277426" duration="6281000" />
+      <workItem from="1657172449203" duration="2791000" />
+      <workItem from="1657179916438" duration="44000" />
+      <workItem from="1657180885976" duration="2021000" />
+      <workItem from="1658109704015" duration="294000" />
+      <workItem from="1658130401085" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="手写spring">
       <created>1657089416313</created>
@@ -126,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657091337141</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="手写spring">
+      <created>1657096415970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657096415970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
